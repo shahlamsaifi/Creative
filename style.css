@@ -604,7 +604,7 @@ span {
     padding-left: 0;
   }
   .contant a {
-    font-size: 16px;
+    font-size: 13px;
     padding: 10px 5px;
   }
   .heading-h1 h1 {
@@ -630,6 +630,9 @@ span {
   .pahraa p {
     font-size: 12px;
   }
+  .pahr p {
+    font-size: 14px;
+}
   .enjy-h1 h1 {
     font-size: 35px;
   }
@@ -681,4 +684,64 @@ span {
     padding-top: 85px;
     font-size: 10px;
 }
+}
+
+@media (max-width: 360px) {
+    .contant a {
+        font-size: 11px;
+        padding: 5px 5px;
+    }
+    .heading-h1 h1 {
+        font-size: 21px;
+    }
+    .pahraghrap p {
+        font-size: 12px;
+    }
+    .about-heading h1 {
+        font-size: 19px;
+    }
+    .mix-about {
+        padding-left: 0x;
+    }
+    .pahraa p {
+        font-size: 10px;
+    }
+    .pahr p {
+        font-size: 12px;
+    }
+    .Creatic-tag a {
+        font-size: 15px;
+        padding: 6px 6px;
+    }
+    .creatic-p {
+        font-size: 10px;
+    }
+    .get-card {
+        padding: 7px 13px;
+        max-width: 100%;
+    }
+    .loction h1 {
+        font-size: 18px;
+    } 
+    .loction-p p {
+        font-size: 13px;
+    }
+    .loction2 h1 {
+        font-size: 18px;
+    } 
+    .loction2-p p {
+        font-size: 13px;
+    }
+    .loction3 h1 {
+        font-size: 18px;
+    } 
+    .loction3-p p {
+        font-size: 13px;
+    }
+    .Get-h1 {
+        font-size: 18px;
+    }
+    .get-p p {
+        font-size: 12px;
+    }
 }
